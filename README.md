@@ -188,3 +188,7 @@ Portfolio design and development: **Win Min Thaw (Moosey)**. School identity and
 The responsive header provides all desktop navigation links through a keyboard-accessible mobile/tablet menu. Both floating intro previews are positioned inside the mobile screen, and decorative labels remain available. Mobile admin tabs use a two-column layout with larger touch targets; screenshots retain their full proportions and open in the same detail dialog. Social icons, theme controls and motion controls remain accessible. Pointer-specific hover and cursor effects apply to desktop pointers; touch users can open the same screenshots and use the same feature controls.
 
 Browser checks for this update covered 320px and 390px phone layouts, a 768px tablet layout, desktop navigation, menu open/close, tab selection, image dialogs and horizontal overflow.
+
+## iPhone presentation correction
+
+Decorative stars, the React symbol and directional arrows use inline SVG instead of Unicode symbols that iOS can substitute with coloured emoji. The phone intro uses a content-driven grid rather than absolute vertical coordinates, keeping screenshots, labels and text in normal flow as font metrics and browser chrome vary. The desktop composition retains its floating arrangement. Responsive browser checks covered 320px and 390px widths, navigation, dashboard tabs and desktop controls; physical iPhone Safari was not available for direct verification.
