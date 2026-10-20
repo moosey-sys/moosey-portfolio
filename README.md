@@ -182,3 +182,9 @@ Browser checks performed during development included desktop and narrow-mobile l
 ## Credits
 
 Portfolio design and development: **Win Min Thaw (Moosey)**. School identity and school photographs belong to their respective owners. The Guru International School project is presented as a featured case study.
+
+## Mobile layout parity update
+
+The responsive header provides all desktop navigation links through a keyboard-accessible mobile/tablet menu. Both floating intro previews are positioned inside the mobile screen, and decorative labels remain available. Mobile admin tabs use a two-column layout with larger touch targets; screenshots retain their full proportions and open in the same detail dialog. Social icons, theme controls and motion controls remain accessible. Pointer-specific hover and cursor effects apply to desktop pointers; touch users can open the same screenshots and use the same feature controls.
+
+Browser checks for this update covered 320px and 390px phone layouts, a 768px tablet layout, desktop navigation, menu open/close, tab selection, image dialogs and horizontal overflow.
